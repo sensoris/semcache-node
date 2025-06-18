@@ -1,0 +1,35 @@
+{
+  "name": "semcache-sdk",
+  "version": "1.0.0",
+  "description": "A node sdk for github.com/sensoris/semcache",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest __tests__/index.test.js",
+    "test:integration": "jest __tests__/integration.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensoris/semcache-js.git"
+  },
+  "keywords": [
+    "machine learning",
+    "cache",
+    "semcache",
+    "LLM",
+    "ML",
+    "AI"
+  ],
+  "author": "jacobhm98 jacob@semcache.io",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sensoris/semcache-js/issues"
+  },
+  "homepage": "https://github.com/sensoris/semcache-js#readme",
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}

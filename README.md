@@ -1,2 +1,31 @@
 # semcache-js
 A node sdk for github.com/sensoris/semcache
+
+
+
+## Quick start
+
+Start the Semcache Docker image:
+
+```bash
+docker run -p 8080:8080 semcache/semcache:latest
+```
+
+Install semcache sdk
+```bash
+npm install semcache-sdk
+```
+Use the sdk in your service
+
+```javascript
+const SemcacheClient = require('semcache-sdk');
+
+const client = new SemcacheClient('http://localhost:8080');
+
+(async () => {
+  await client.put('What is the capital of France?', 'Paris');
+
+  const result = await client.get('What is the capital of France?');
+  console.log(result); // => 'Paris'
+})();
+```
