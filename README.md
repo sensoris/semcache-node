@@ -11,9 +11,9 @@ Start the Semcache Docker image:
 docker run -p 8080:8080 semcache/semcache:latest
 ```
 
-Install semcache sdk
+Install semcache
 ```bash
-npm install semcache-sdk
+npm install semcache
 ```
 Use the sdk in your service
 
