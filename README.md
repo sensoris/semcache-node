@@ -18,7 +18,7 @@ npm install semcache-sdk
 Use the sdk in your service
 
 ```javascript
-const SemcacheClient = require('semcache-sdk');
+const SemcacheClient = require('semcache');
 
 const client = new SemcacheClient('http://localhost:8080');
 
