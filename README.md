@@ -1,4 +1,4 @@
-# semcache-js
+# semcache-node
 A node sdk for github.com/sensoris/semcache
 
 
